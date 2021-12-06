@@ -1,14 +1,27 @@
 import React from "react";
 import "./Info.css";
+import Axios from 'axios';
+import fileDownload from 'js-file-download';
+
+
 //ant
 import { Card } from "antd";
+const filename = "Ivan-Castro-CV";
+const url="https://portfolio-ivancastro773.herokuapp.com/static/media/android.9a44c9d3.png";
 
+function download() {
+  Axios.get(url, {
+    responseType: 'blob',
+  }).then(res => {
+    fileDownload(res.data, filename);
+  });
+}
 const Info = () => {
   return (
     <section className="container-info">
       <Card
         title={<i class="fas fa-user-tie"> Presentación</i>}
-        extra={<a href="#">Descargar CV</a>}
+        extra={<button onClick={download}>Descargar CV</button>}
       >
         <ul>
           <li>
