@@ -1,0 +1,30 @@
+.container-lang{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    height: 400px;
+}
+.lang-single{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.lang-single:hover{
+    -ms-transform: scale(1); /* IE 9 */
+    -webkit-transform: scale(1,5); /* Safari 3-8 */
+    transform: scale(1.5); 
+    padding-left: 15px;
+    padding-right: 15px;
+}
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .container-lang{
+        display: flex;
+        flex-direction: column;
+        justify-content: none;
+        height: 100%;
+    }
+  }

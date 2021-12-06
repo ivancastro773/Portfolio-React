@@ -1,0 +1,23 @@
+.container-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(31, 27, 27);
+}
+.ant-card{
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.container-info p{
+    font-size: 1rem;
+}
+@media only screen and (max-width:500px) {
+    .ant-card-head-title{
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .ant-card-extra{
+        display: none;
+    }
+}
