@@ -12,6 +12,12 @@
 .container-info p{
     font-size: 1rem;
 }
+.btnInfo{
+    border: none;
+    border-radius: 10px;
+    color: black;
+    background-color: #03b8d8;
+}
 @media only screen and (max-width:500px) {
     .ant-card-head-title{
         font-size: 1rem;

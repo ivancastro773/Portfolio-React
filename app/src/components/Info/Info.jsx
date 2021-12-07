@@ -6,22 +6,14 @@ import fileDownload from 'js-file-download';
 
 //ant
 import { Card } from "antd";
-const filename = "Ivan-Castro-CV";
-const url="https://portfolio-ivancastro773.herokuapp.com/static/media/android.9a44c9d3.png";
 
-function download() {
-  Axios.get(url, {
-    responseType: 'blob',
-  }).then(res => {
-    fileDownload(res.data, filename);
-  });
-}
 const Info = () => {
+  const url="https://drive.google.com/file/d/1PHYcmclqwAC1qoMzKeTAqobdWt1cRuZT/view?usp=sharing";
   return (
     <section className="container-info">
       <Card
         title={<i class="fas fa-user-tie"> Presentación</i>}
-        extra={<button onClick={download}>Descargar CV</button>}
+        extra={<button className="btnInfo"><a href={url}>Visualizar CV</a></button>}
       >
         <ul>
           <li>
