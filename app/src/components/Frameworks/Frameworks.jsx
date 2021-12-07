@@ -1,8 +1,8 @@
 import React from "react";
 import './Frameworks.css';
-import node from "./img/node1.png";
+import node from "./img/node11.png";
 import laravel from "./img/laravel.png";
-import android from "./img/android.png";
+import android from "./img/android11.png";
 const Frameworks=()=>{
     return (
         <div className="container-frameworks">
