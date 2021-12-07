@@ -7,13 +7,13 @@ const Frameworks=()=>{
     return (
         <div className="container-frameworks">
             <div>
-                <img className="img-frame" src={node} alt="" />
+                <img className="img-frame animate__animated animate__bounceInUp" src={node} alt="" />
             </div>
             <div>
-                <img className="img-frame" src={android} alt="" />
+                <img className="img-frame animate__animated animate__bounceInUp" src={android} alt="" />
             </div>
             <div>
-                <img className="img-frame" src={laravel} alt="" />
+                <img className="img-frame animate__animated animate__bounceInUp" src={laravel} alt="" />
             </div>
         </div>
     )

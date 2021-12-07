@@ -40,6 +40,10 @@
   border-radius: 15px;
   height: 50%;
 }
+a:link, a:visited, a:active {
+  text-decoration:none;
+  color: white;
+}
 .social {
   display: flex;
   justify-content: center;

@@ -4,17 +4,17 @@
   align-items: center;
   gap: 1rem;
   height: 400px;
-  background-color: rgb(3, 184, 216);
+  background: #12a6be;
 }
 .site-card-border-less-wrapper {
   padding: 20px;
-  background: #ececec;
+  background: #12a6be;
 }
-.site-card-border-less-wrapper:hover{
+/* .site-card-border-less-wrapper:hover{
   background-color: rgb(230, 230, 30);
   box-shadow: 1px 1px 2px black, 0 0 25px yellow, 0 0 5px darkblue;
   border-radius: 10px;
-}
+} */
 .text {
   font-size: 1rem;
 }
@@ -23,7 +23,7 @@
   font-size: 2rem;
 }
 .ant-card:hover{
-  border-radius: 10px;
+  box-shadow: 1px 1px 2px rgb(255, 254, 254), 0 0 10px rgb(44, 80, 243), 0 0 5px darkblue;
 }
 @media only screen and (max-width:500px) {
   .container-works{

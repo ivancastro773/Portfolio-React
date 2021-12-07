@@ -12,7 +12,7 @@ const { Meta } = Card;
 const Courses = () => {
   return (
     <div className="container-courses">
-      <Card className="course-icon" cover={<i class="fas fa-code fa-5x"></i>}>
+      <Card className="course-icon animate__animated animate__bounceInLeft" cover={<i class="fas fa-code fa-5x"></i>}>
         <Meta
           title="Programación"
           description={
@@ -28,7 +28,7 @@ const Courses = () => {
         />
       </Card>
       <Card
-        className="course-icon"
+        className="course-icon animate__animated animate__bounceInRight"
         cover={<i class="fas fa-user-lock fa-5x"></i>}
       >
         <Meta

@@ -7,7 +7,7 @@ import { Card } from "antd";
 const Tesis = () => {
   return (
     <div className="container-tesis">
-      <div className="site-card-border-less-wrapper">
+      <div className="site-card-border-less-wrapper animate__animated animate__flipInX">
         <Card title="Descripción" bordered={false} style={{ width: 300 }}>
           <p className="text">
               Desarrollé una API REST con Node JS para la parte de Back-end 
@@ -20,7 +20,7 @@ const Tesis = () => {
         </Card>
       </div>
       <div>
-          <img className="img-app-android" src={AppAndroid} alt="" />
+          <img className="img-app-android animate__animated animate__rotateInDownLeft" src={AppAndroid} alt="" />
       </div>
     </div>
   );
