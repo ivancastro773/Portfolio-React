@@ -12,7 +12,7 @@ const Info = () => {
   return (
     <section className="container-info">
       <Card
-        title={<i class="fas fa-user-tie"> Presentación</i>}
+        title={<i class="fas fa-user-tie"> hola</i>}
         extra={<button className="btnInfo"><a href={url}>Visualizar CV</a></button>}
       >
         <ul>
