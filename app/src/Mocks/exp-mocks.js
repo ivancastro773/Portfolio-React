@@ -5,7 +5,7 @@ export const experience = [
     description:
       "Es una página de Star Wars donde muestra los distintos personajes y vehiculos de la saga. La misma tiene sistema de login.",
     language: "html - css - Javascript - Boostrap - SweetAlert",
-    img:"yes"
+    img:"1"
   },
   {
     typeApp: "API",
@@ -22,7 +22,7 @@ export const experience = [
     description:
       "Es una aplicacion que brinda el estado de disponibilidad para la practica de deportes donde podes reservar tu turno, cancelar turno, etc.",
     language: "Android Studio - Java - Retrofit - Firebase - Material Design",
-    img:"yes"
+    img:"2"
   },
     {
     typeApp: "API",

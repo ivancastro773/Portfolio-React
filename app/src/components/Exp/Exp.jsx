@@ -12,7 +12,8 @@ import Works from "../Works/Works";
 import Tesis from "../Tesis/Tesis";
 import { Card, Avatar } from "antd";
 import img1 from "../Exp/img/Captura.PNG";
-import img2 from "../Exp/img/nodeje.jpg";
+import img2 from "../Exp/img/prueba.jpg";
+import imgd from "../Exp/img/nodeje.jpg";
 import { Button, Tooltip } from "antd";
 import { CodeOutlined } from "@ant-design/icons";
 
@@ -25,14 +26,23 @@ const Exp = () => {
     setState({ tabPosition: e.target.value });
   };
   const { tabPosition } = state;
-
+const showImg=(num)=>{
+  if (num == "1") {
+    return img1;
+  }
+  if (num == "2") {
+    return img2;
+  }else{
+    return imgd
+  }
+}
   return (
     <>
       <div className="exp-container">
         {experience.map((item, i) => {
           return (
-            <div className="card-exp">
-              <img src={(item.img =="") ? img2 : img1} alt="" />
+            <div key={i} className="card-exp">
+              <img src={showImg(item.img)} className="img-card-exp" alt="" />
               <h2 className="title-card">{item.title}{(item.title =="Dispo-Deportes SR")?<i class="certificate tooltiptext fas fa-medal"></i>:""} </h2>
               <p className="p-card">{item.description}</p>
               <p className="languaje-card">{item.language}</p>
