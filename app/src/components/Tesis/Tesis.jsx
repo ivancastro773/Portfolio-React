@@ -1,6 +1,5 @@
 import React from "react";
-import "./Tesis.css";
-import AppAndroid from './login.PNG';
+
 //ant
 import { Card } from "antd";
 
@@ -20,7 +19,7 @@ const Tesis = () => {
         </Card>
       </div>
       <div>
-          <img className="img-app-android animate__animated animate__flipInY" src={AppAndroid} alt="" />
+          <img className="img-app-android animate__animated animate__flipInY" src="" alt="" />
       </div>
     </div>
   );

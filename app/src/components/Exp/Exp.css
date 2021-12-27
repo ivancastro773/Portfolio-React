@@ -1,3 +1,38 @@
-.ant-tabs-tab{
-    font-size: 25px;
+.exp-container{
+    display: flex;
+    justify-content: center;
+/*     align-items: center; */
+    gap: 1rem;
+    background-color: aqua;
+    flex-wrap: wrap;
 }
+.card-exp{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid red;
+    background-color: blanchedalmond;
+    width: 450px;
+    height: 440px;
+    gap: 2px;
+}
+.certificate{
+    color: gold;
+}
+.btn-api{
+    width: 300px;
+}
+.languaje-card{
+    font-weight: bold;
+    
+}
+.ant-card-exp{
+    width: 450px;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  

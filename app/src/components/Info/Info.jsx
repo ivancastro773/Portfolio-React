@@ -1,5 +1,4 @@
 import React from "react";
-import "./Info.css";
 import Axios from 'axios';
 import fileDownload from 'js-file-download';
 

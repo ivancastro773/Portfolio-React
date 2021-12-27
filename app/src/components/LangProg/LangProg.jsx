@@ -1,6 +1,4 @@
 import React from "react";
-//css
-import "./LangProg.css";
 //ant
 import { Progress } from "antd";
 

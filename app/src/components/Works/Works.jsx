@@ -1,6 +1,4 @@
 import React from "react";
-//css
-import "./Works.css";
 /* import 'animate.css'; */
 //ant
 import { Card } from "antd";
