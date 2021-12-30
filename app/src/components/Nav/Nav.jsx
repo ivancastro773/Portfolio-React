@@ -13,7 +13,8 @@ import {
 //components
 import Home from '../Home/Home';
 import Exp from '../Exp/Exp'
-import Info from "../Info/Info";
+import Contact from "../Contact/Contact";
+
 
 const { SubMenu } = Menu;
 
@@ -36,7 +37,7 @@ const Nav = () => {
         <Exp/>
       </div>
       <div id="info">
-        <Info/>
+        <Contact/>
       </div>
     </>
   );

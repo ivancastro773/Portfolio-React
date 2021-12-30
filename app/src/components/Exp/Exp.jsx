@@ -13,6 +13,7 @@ import Tesis from "../Tesis/Tesis";
 import { Card, Avatar } from "antd";
 import img1 from "../Exp/img/Captura.PNG";
 import img2 from "../Exp/img/prueba.jpg";
+import img3 from "../Exp/img/ejer.jpg";
 import imgd from "../Exp/img/nodeje.jpg";
 import { Button, Tooltip } from "antd";
 import { CodeOutlined } from "@ant-design/icons";
@@ -32,12 +33,19 @@ const showImg=(num)=>{
   }
   if (num == "2") {
     return img2;
+  }
+  if (num == "3") {
+    return img3;
   }else{
     return imgd
   }
 }
   return (
     <>
+      <div className="header-exp">
+        <h1>EXPERIENCIA</h1>
+        <h2>Algunos de mis proyectos y prácticas...</h2>
+      </div>
       <div className="exp-container">
         {experience.map((item, i) => {
           return (
@@ -68,25 +76,5 @@ const showImg=(num)=>{
     </>
   );
 };
-/* 
-<Card
-className="ant-card-exp"
-  cover={
-    <img
-      alt="example"
-      src={img1}
-    />
-  }
-  actions={[
-    <SettingOutlined key="setting" />,
-    <EditOutlined key="edit" />,
-    <EllipsisOutlined key="ellipsis" />,
-  ]}
->
-  <Meta
-    avatar={<Avatar src="https://joeschmoe.io/api/v1/random" />}
-    title="Card title"
-    description="This is the description"
-  />
-</Card> */
+
 export default Exp;

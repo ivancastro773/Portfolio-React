@@ -11,6 +11,7 @@
   background-blend-mode: overlay;
   height: 100vh;
   display: flex;
+
 }
 .container-text {
   display: flex;
@@ -32,9 +33,10 @@
   color: var(--color-box-text);
 }
 .subtitle {
-  font-size: 60px;
-  font-weight: 400;
+  font-size: 50px;
+  font-weight: 300px;
   color: var(--color-box-text);
+  padding-bottom: 15px;
 }
 .style-img {
   border-radius: 15px;
@@ -65,8 +67,7 @@ a:link, a:visited, a:active {
     padding: 25px;
 }
 
-@media only screen and (max-width:700px) {
-  /* For mobile phones: */
+@media only screen and (max-width:800px) {
   .sec-home{
     display: flex;
     align-items: center;
@@ -84,7 +85,8 @@ a:link, a:visited, a:active {
     height: 60px;
   }
   .container-image{
-    display: none;
+    border-radius: 15px;
+    height: 50%;
   }
 
 }

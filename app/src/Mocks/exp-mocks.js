@@ -5,7 +5,7 @@ export const experience = [
     description:
       "Es una página de Star Wars donde muestra los distintos personajes y vehiculos de la saga. La misma tiene sistema de login.",
     language: "html - css - Javascript - Boostrap - SweetAlert",
-    img:"1"
+    img: "1",
   },
   {
     typeApp: "API",
@@ -14,7 +14,7 @@ export const experience = [
       "Es una Api Rest conectada con una base de datos propia, y posee todas las funcionalidades de la Aplicacion Star Wars.",
     language:
       "Node Js - Javascript - MySql - jwt - bcrptjs - nodemailer - axios",
-      img:""
+    img: "",
   },
   {
     typeApp: "APP",
@@ -22,16 +22,24 @@ export const experience = [
     description:
       "Es una aplicacion que brinda el estado de disponibilidad para la practica de deportes donde podes reservar tu turno, cancelar turno, etc.",
     language: "Android Studio - Java - Retrofit - Firebase - Material Design",
-    img:"2"
+    img: "2",
   },
-    {
+  {
     typeApp: "API",
     title: "API Dispo-Deportes SR",
     description:
       "Es una Api Rest conectada con una base de datos propia, y posee todas las funcionalidades de la Aplicacion Star Wars.",
     language:
       "Node Js - Javascript - MySql - jwt - bcrptjs - nodemailer - axios - Firebase - multer",
-      img:""
+    img: "",
   },
-  
+  {
+    typeApp: "EJER",
+    title: "Bootcamp Frotend React Js.",
+    description:
+      "Son un conjunto de practicas que realizamos en el bootcamp.",
+    language:
+      "html - css - javascript",
+    img: "3",
+  },
 ];

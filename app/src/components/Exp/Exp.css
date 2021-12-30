@@ -1,41 +1,55 @@
-.exp-container{
-    display: flex;
-    justify-content: center;
-/*     align-items: center; */
-    gap: 1rem;
-    background-color: aqua;
-    flex-wrap: wrap;
+.exp-container {
+  display: flex;
+  justify-content: center;
+  /*     align-items: center; */
+  gap: 1rem;
+  background-color: aqua;
+  flex-wrap: wrap;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
-.card-exp{
-    display: flex;
-    flex-direction: column;
+
+.header-exp {
     text-align: center;
-    border: 1px solid red;
-    background-color: blanchedalmond;
-    width: 450px;
-    height: 440px;
-    gap: 2px;
+    background: aqua;
+    padding-bottom: 20px;
+    padding-top: 15px;
 }
-.certificate{
-    color: gold;
+.header-exp h1,
+h2 {
+  margin: 0;
 }
-.btn-api{
-    width: 300px;
+
+.card-exp {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: blanchedalmond;
+  width: 450px;
+  /*     height: 440px; */
+  gap: 2px;
+  border-radius: 15px 15px 0 0;
 }
-.languaje-card{
-    font-weight: bold;
-    
+.certificate {
+  color: gold;
 }
-.ant-card-exp{
-    width: 450px;
+.btn-api {
+  width: 300px;
+}
+.languaje-card {
+  font-weight: bold;
+}
+.ant-card-exp {
+  width: 450px;
 }
 
 .tooltip {
-    position: relative;
-    display: inline-block;
-    border-bottom: 1px dotted black;
-  }
-  .img-card-exp{
-      display: flex;
-      align-items: center;
-  }
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+.img-card-exp {
+  display: flex;
+  align-items: center;
+  border-radius: 15px 15px 0 0;
+}

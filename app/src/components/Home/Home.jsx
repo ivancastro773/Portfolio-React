@@ -7,21 +7,16 @@ const Home = () => {
     <section className="sec-home">
       <div className="container-text">
         <h1 className="title">Soy Iván Castro</h1>
-        <h2 className="subtitle">Ingeniero Informático</h2>
+        <h2 className="subtitle">Full Stack Developer Jr</h2>
         <div className="social">
-          <a href="https://www.facebook.com/ivan.castro.35110">
-            <div className="box-icon animate__animated animate__lightSpeedInLeft">
-              <i className="fab fa-facebook-f fa-3x"></i>
-            </div>
-          </a>
-          <a href="https://www.instagram.com/ivancastro773/">
-            <div className="box-icon animate__animated animate__lightSpeedInLeft">
-              <i class="fab fa-instagram fa-3x"></i>
-            </div>
-          </a>
           <a href="https://www.linkedin.com/in/ivancastro773/">
             <div className="box-icon animate__animated animate__lightSpeedInLeft">
               <i class="fab fa-linkedin-in fa-3x"></i>
+            </div>
+          </a>
+          <a href="https://github.com/ivancastro773">
+            <div className="box-icon animate__animated animate__lightSpeedInLeft">
+              <i class="fab fa-github fa-3x"></i>
             </div>
           </a>
         </div>
