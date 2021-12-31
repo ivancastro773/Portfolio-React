@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import { Routes, Route, Link } from "react-router-dom";
 //css
 import "./Exp.css";
+//AOS
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
 //mocks
 import { experience } from "../../Mocks/exp-mocks";
 //ant
@@ -19,10 +22,10 @@ import { Button, Tooltip } from "antd";
 import { CodeOutlined } from "@ant-design/icons";
 
 const { Meta } = Card;
-
+AOS.init();
 const Exp = () => {
   const [state, setState] = useState({ tabPosition: "top" });
-
+  
   const changeTabPosition = (e) => {
     setState({ tabPosition: e.target.value });
   };
@@ -49,7 +52,7 @@ const showImg=(num)=>{
       <div className="exp-container">
         {experience.map((item, i) => {
           return (
-            <div key={i} className="card-exp">
+            <div key={i} data-aos="flip-left" data-aos-delay="60" className="card-exp">
               <img src={showImg(item.img)} className="img-card-exp" alt="" />
              {/*  <Tooltip title="Con dicho proyecto me recibí de Ing. Informtico" placement="top" color='orange'> */}
               
@@ -60,16 +63,20 @@ const showImg=(num)=>{
                 <>
                   {" "}
                   <Button type="primary" block>
-                    Ver Proyecto
+                    <a href={item.urlApp}>Ver Proyecto</a>
                   </Button>
+                  <a href={item.urlCode}>
                   <Button className="" icon={<CodeOutlined />} block size="">
-                    Ver Código
+                     Ver Código
                   </Button>{" "}
+                  </a>
                 </>
               ) : (
+                <a href={item.urlCode}>
                 <Button className="" icon={<CodeOutlined />} block size="">
-                  Ver Código
-                </Button>
+                     Ver Código
+                  </Button>
+                  </a>
               )}
             </div>
           );

@@ -1,11 +1,11 @@
 .container-contact{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     height: 250px;
     flex-wrap: wrap;
-
+    background: url(../Contact/wave.svg);
+    background-repeat: no-repeat;
 }
 .item{
     display: flex;

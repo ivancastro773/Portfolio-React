@@ -26,7 +26,7 @@ const Contact = () => {
 
           <div>
             <Button type="primary" size="large">
-              Ver Curriculum
+              <a href={url}>Ver Curriculum</a>
             </Button>
           </div>
         </div>
