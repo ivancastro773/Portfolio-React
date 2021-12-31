@@ -3,12 +3,18 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 160px;
+    height: 250px;
     flex-wrap: wrap;
+
 }
 .item{
     display: flex;
-    gap: 2rem;
+    gap: 3rem;
+}
+.box-item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 .title-contact{
     font-size: 2rem;

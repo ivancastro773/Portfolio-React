@@ -51,7 +51,9 @@ const showImg=(num)=>{
           return (
             <div key={i} className="card-exp">
               <img src={showImg(item.img)} className="img-card-exp" alt="" />
-              <h2 className="title-card">{item.title}{(item.title =="Dispo-Deportes SR")?<i class="certificate tooltiptext fas fa-medal"></i>:""} </h2>
+             {/*  <Tooltip title="Con dicho proyecto me recibí de Ing. Informtico" placement="top" color='orange'> */}
+              
+              <h2 className="title-card">{item.title}{(item.title =="Dispo-Deportes SR")?<i class="certificate tooltiptext fas fa-medal"></i>:""} </h2>{/* </Tooltip> */}
               <p className="p-card">{item.description}</p>
               <p className="languaje-card">{item.language}</p>
               {item.typeApp == "APP" ? (
