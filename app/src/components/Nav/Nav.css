@@ -1,4 +1,7 @@
-.ant-menu-overflow{
-    display: flex;
-    justify-content: center;
+.ant-menu-overflow {
+  display: flex;
+  justify-content: center;
+}
+html {
+  scroll-behavior: smooth;
 }

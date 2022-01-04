@@ -56,3 +56,8 @@ h2 {
 a {
   color: black;
 }
+@media only screen and (max-width:460px) {
+  .card-exp{
+    width: 370px;
+  }
+}

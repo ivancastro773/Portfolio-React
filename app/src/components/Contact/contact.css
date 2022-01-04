@@ -7,6 +7,12 @@
     background: url(../Contact/wave.svg);
     background-repeat: no-repeat;
 }
+@media only screen and (max-width:460px) {
+    .container-contact{
+      flex-wrap: nowrap;
+      background: white;
+    }
+  }
 .item{
     display: flex;
     gap: 3rem;
