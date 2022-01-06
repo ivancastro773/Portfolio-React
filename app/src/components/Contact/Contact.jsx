@@ -9,7 +9,7 @@ import { Tooltip, Button, Divider } from "antd";
 
 const Contact = () => {
   const url =
-    "https://drive.google.com/file/d/1PHYcmclqwAC1qoMzKeTAqobdWt1cRuZT/view?usp=sharing";
+    "https://drive.google.com/file/d/14hISG3j6aHS__c-fsmRKNTRYNsyiKgNh/view?usp=sharing";
   return (
     <>
       <section className="container-contact">

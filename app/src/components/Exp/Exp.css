@@ -20,6 +20,10 @@ h2 {
   margin: 0;
 }
 
+.box-title-work{
+  display: flex;
+  justify-content: center;
+}
 .card-exp {
   display: flex;
   flex-direction: column;
